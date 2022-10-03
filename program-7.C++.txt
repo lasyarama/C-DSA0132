@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a=20,b=30,c=40,d=10;
+  if (a>b && a>c && a>d)
+  {
+    cout<<"A is greater";
+  }
+  else if (b>a && b>c && b>d)
+  {
+    cout<<"B is greater";
+  }
+  else if (c>a && c>b && c>d)
+  {
+    cout<<"C is greater";
+  }
+  else
+  {
+    cout<<"D is greater";
+  }
+

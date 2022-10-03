@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int a=30,b=40,c=20;
+  if(a>b && a>c)
+  {
+    cout<<"a is greater";
+  }
+  else if (b>c && b>a)
+  {
+    cout<<"b is greater";
+  }
+  else 
+  {
+    cout<<"c is greater";
+  }
+
+}
